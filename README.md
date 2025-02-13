@@ -28,3 +28,8 @@
                   "#.#.....##.#", \
                   "##########.#"
 ```
+Note: You must install "make" in Ubuntu, if you don´t have it.
+
+```bash
+sudo apt-get update
+sudo apt-get install make
