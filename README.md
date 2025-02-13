@@ -8,3 +8,9 @@
 </p>
 
 <h1>.h files</h1>
+<p>In these headers (encruta1.h and labyrinth.h) the information that we are going to use is collected, such as the labyrinth that we will use with 12 columns and 8 rows.
+</p>
+
+```c
+#define LABERINTO "############", \
+                  "#..###..
