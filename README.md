@@ -8,9 +8,23 @@
 </p>
 
 <h1>.h files</h1>
-<p>In these headers (encruta1.h and labyrinth.h) the information that we are going to use is collected, such as the labyrinth that we will use with 12 columns and 8 rows.
+<p>In these headers (encruta1.h and labyrinth.h) the information that we are going to use is collected, such as the labyrinth that we will use with 12 columns and 8 rows. In encruta.h we have the function that we will use in both ways to navigate the maze.
+
 </p>
 
 ```c
+/* Dimensiones del laberinto */
+#define NCOL 12
+#define NFIL  8
+//fichero laberinto.h
+
+/* "Mapa" del laberinto */
 #define LABERINTO "############", \
-                  "#..###..
+                  "#..###....##", \
+                  "##...#.###.#", \
+                  "#..#.#.#...#", \
+                  "###....#####", \
+                  "#...###....#", \
+                  "#.#.....##.#", \
+                  "##########.#"
+```
